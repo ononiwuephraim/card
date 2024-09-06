@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    background: linear-gradient(
+        90deg,
+        green,blue,orange
+    );
+    height: 200vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.border {
+    background-color: whitesmoke;
+    border: 1px solid rgb(0, 80, 137);
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    margin-top:110px;
+}
+.nearest {
+    background-color: rgb(172, 127, 214);
+    width: 100px;
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    height: 20px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-div {
+    width: 310px;
+    height: 310px;
+    margin-left: 12px;
+    margin-right: auto;
+    margin-top: auto;
+padding-bottom: 50px;
+}
+.wireless {
+    text-align: center;
+    font-style: normal;
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 20px;
+    margin-bottom: 10px;
+margin-top: 55px;
+flex-direction: column;
+}
+.shipped {
+    color: gray;
+    margin-left: 115px;
+}
+.price {
+    margin-left: 115px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.add {
+    background-color: lightgray;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.buy {
+    background-color: blueviolet;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 20px;
+}
